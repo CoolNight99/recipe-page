@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+    margin: 20px;
+    font-family: Outfit;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 25px;
+    width: 650px;
+}
+
+.omelette {
+    width: 640px;
+}
+
+.intro {
+    color: hsl(30, 10%, 34%);
+}
+
+h1, h2, h4 {
+    font-family: Young Serif;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2, h3, h4, .nutrition-data {
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px;
+}
+
+li {
+    line-height: 35px;
+}
+
+span {
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+
+.nutrition-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 400px;
+    line-height: 1px;
+}
+
+.nutrition-data {
+    font-weight: bold;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+}
